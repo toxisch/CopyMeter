@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/settings_main" android:orientation="vertical">
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/settings_counter_heading"
+            style="?android:attr/listSeparatorTextViewStyle" />
+
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:id="@android:id/list"
+            android:headerDividersEnabled="true"
+            android:fastScrollEnabled="true"
+            android:layout_weight="1"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_printerlist_addcounter"
+            android:id="@+id/settings_printerlist_addprinter"
+            android:onClick="addCounter"/>
+</LinearLayout>

@@ -1,0 +1,89 @@
+{
+  "modelCache": {
+  },
+  "priceTableList": {},
+  "printerList": [
+    {
+      "counterList": [
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "7d4dd409-1573-4dfa-8068-e47311e0d833",
+          "lastCounts": 0,
+          "name": "Schwarzweißkopien",
+          "offsetCounts": 1,
+          "regex": "'Schwarzweißkopien',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "13aaa716-c727-4ada-9490-6574d4900522",
+          "lastCounts": 0,
+          "name": "Schwarzweißdruckseiten",
+          "offsetCounts": 1,
+          "regex": "'Schwarzweißdruckseiten',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "13aaa716-c727-4ada-9490-6574d4900522",
+          "lastCounts": 0,
+          "name": "Farbkopien",
+          "offsetCounts": 1,
+          "regex": "'Farbkopien',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "13aaa716-c727-4ada-9490-6574d4900522",
+          "lastCounts": 0,
+          "name": "Farbdruckseiten",
+          "offsetCounts": 1,
+          "regex": "'Farbdruckseiten',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "3e75ffa9-6b88-47b2-84d9-a03454cfc8fc",
+          "lastCounts": 0,
+          "name": "Großformatseiten, Schwarzweiß",
+          "offsetCounts": 1,
+          "regex": "'Großformatseiten, Schwarzweiß',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "7d36e157-11a7-4e51-ae0a-c654bb35725b",
+          "lastCounts": 0,
+          "name": "Großformatseiten, Farbe",
+          "offsetCounts": 1,
+          "regex": "'Großformatseiten, Farbe',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "13aaa716-c727-4ada-9490-6574d4900522",
+          "lastCounts": 0,
+          "name": "Blätter",
+          "offsetCounts": 1,
+          "regex": "'Blätter',([0-9]*),'"
+        },
+        {
+          "currentCounts": 0,
+          "currentCountsSnapshot": 0,
+          "id": "cecbbca9-5c7e-43b4-bcd4-c196c9390661",
+          "lastCounts": 0,
+          "name": "Gesendete Seiten",
+          "offsetCounts": 1,
+          "regex": "'Gesendete Seiten',([0-9]*),'"
+        }
+      ],
+      "id": "167a86cd-ea84-46b9-ad95-3aa6f21aa6b8",
+      "ip": "172.100.100.34",
+      "name": "Testdrucker",
+      "number": "1",
+      "regExUrl": "http://10.0.2.2:8090/printer/prcnt.htm",
+      "printerState": "ONLINE"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content" android:id="@+id/preferences">
+
+<EditTextPreference android:summary="pref_summary_TipPercent" android:defaultValue="15" android:title="pref_title_TipPercent" android:key="pref_key_TipPercent"></EditTextPreference>
+<EditTextPreference android:summary="pref_summary_TaxPercent" android:defaultValue="0" android:title="pref_title_TaxPercent" android:key="pref_key_TaxPercent"></EditTextPreference>
+<EditTextPreference android:summary="pref_summary_ExtraAmount" android:defaultValue="0" android:title="pref_title_ExtraAmount" android:key="pref_key_ExtraAmount"></EditTextPreference>
+</PreferenceScreen>

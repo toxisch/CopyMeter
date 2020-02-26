@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>CopyMeter - Configuration Import and Export</title>
+</head>
+<body>
+
+<h1>CopyMeter Configuration Export</h1>
+
+<form action="download" method="get">
+    <p>Press the following button to export the current CopyMeter configuration to your local computer. Store the file for a later import.</p>
+    <p>
+        <input type="submit" value="Export Configuration">
+    </p>
+</form>
+
+<h1>CopyMeter Configuration Import</h1>
+
+<form action="upload" method="post" enctype="multipart/form-data">
+    <p>Choose configuration file to import:<br>
+        <input name="Datei" type="file" size="50" maxlength="100000" accept="json/*">
+    </p>
+    <p>
+    <input type="submit" value="Import Configuration">
+    </p>
+</form>
+
+</body>
+</html>

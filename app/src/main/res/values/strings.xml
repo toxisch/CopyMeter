@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">en</string>
+    <string name="app_name">CopyMeter2</string>
+    <string name="global_reset">Reset Printers</string>
+    <string name="info_page">About CopyMeter</string>
+    <string name="preferences">Settings</string>
+    <string name="importexport">Import/Export Configuration</string>
+
+    <string name="settings_printerlist_addprinter">Add new printer</string>
+    <string name="settings_printerlist_addcounter">Add new counter</string>
+    <string name="settings_printerlist_export">Export settings</string>
+    <string name="settings_printerlist_import">Import settings</string>
+    <string name="settings_printerlist_resetModel">Reset model cache</string>
+
+    <string name="settings_printer_group_counterlist">Counters</string>
+    <string name="settings_printer_heading">Printer settings</string>
+    <string name="settings_printer_number">Printer Number</string>
+    <string name="settings_printer_editcounter">Edit counters</string>
+
+    <string name="wizard_semi_description">Use this wizard to add counters by count, which ware available on printer webinterface.</string>
+    <string name="wizard_semi_wait">CopyMeter tries to detect the counter withe value %s. This can take several minutes. Pleas wait!</string>
+    <string name="wizard_semi_increment">The counter could not be detected clearly. We need a second configuration step. Please perform an action to increment the counter (e.g. print a colour document). Please press O.K. if ready.</string>
+    <string name="wizard_semi_counter_name">Counter name</string>
+    <string name="wizard_semi_counter_value">Current counts</string>
+
+    <string name="wizard_auto_init">CopyMeter makes a initial counter scan. Please wait...</string>
+    <string name="wizard_auto_lookup">CopyMeter is looking for the affected counter. Please wait...</string>
+    <string name="wizard_auto_increment">Please perform an action to increment the counter (e.g. print a colour document). Please press OK if ready.</string>
+
+    <string name="wizard_selection_semiautomatic">Wizard based Setup</string>
+    <string name="wizard_selection_manual">Manual Setup</string>
+
+    <string name="settings_printer_deleteprinter">Delete Printer</string>
+    <string name="settings_counter_button_deleteCounter">Delete Counter</string>
+    <string name="settings_counter_label_oid">The SNMP OID of counter</string>
+    <string name="settings_counter_label_regex">The REGEX of counter</string>
+    <string name="settings_counter_label_name">The name of counter</string>
+    <string name="settings_counter_heading">Counter configuration</string>
+    <string name="settings_counter_dielaog_delete">Really delete counter %s?</string>
+    <string name="settings_printer_label_number">The number of printer</string>
+    <string name="settings_printer_label_name">The name of printer</string>
+    <string name="settings_printer_label_ip">The IP Address of printer</string>
+    <string name="settings_printer_label_port">The SNMP port of printer</string>
+    <string name="settings_printer_label_regexuri">The uri for regex checks</string>
+    <string name="settings_printer_dielaog_delete">Really delete printer %sprinter?</string>
+    <string name="settings_import_success">The configuration was successfully imported!</string>
+    <string name="settings_export_success">The configuration was successfully exported to file %s. You can now connect your device to PC and copy the file.</string>
+
+
+    <string name="validator_is_not_empty">Please insert a value!</string>
+    <string name="validator_is_ip_address">Please insert a valid IP address (e.g. 192.168.0.1)!</string>
+    <string name="validator_is_numeric">Please insert a numeric value!</string>
+    <string name="settings_printer_label_counters">Counter Settings</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_warning">Attention!</string>
+    <string name="common_error">Error!</string>
+    <string name="common_pleas_wait">Please Wait!</string>
+    <string name="common_reset">Reset</string>
+    <string name="common_success">Success!</string>
+
+    <string name="error_printer_connection">Unable to open SNMP connection to ip %s! Please check printers IP address and port.</string>
+    <string name="error_counter_match_oid">Can not find a counter with value %s on this printer! Pleas check the value and try again.</string>
+    <string name="error_counter_match">Can not find a matching counter!</string>
+    <string name="error_counter_connection">Unable to read OID %s from printer!</string>
+
+    <string name="info_about">The CopyMeter app is a Alexander Hafen production. All rights reserved. Contact: copymeter@havre.de</string>
+    <string name="info_license_icons">The used app icons are produced by Pyconic (http://pyconic.com) under Creative Commons License (http://creativecommons.org/licenses/by/3.0/)</string>
+
+    <string name="importexport_message">Sie können nun die Konfiguration mit Ihrem PC importieren und exportieren. Öffnen Sie hierzu mit Ihrem Browser die Adresse %s und folgen sie den Anweisungen."</string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">de</string>
+    <string name="global_reset">Drucker zurücksetzen</string>
+    <string name="info_page">Über CopyMeter</string>
+    <string name="preferences">Einstellungen</string>
+    <string name="importexport">Import/Export Konfiguration</string>
+
+
+    <string name="settings_printerlist_addprinter">Neueapp_namer Drucker hinzufügen</string>
+    <string name="settings_printerlist_addcounter">Neuer Zähler hinzufügen</string>
+    <string name="settings_printerlist_export">Export settings</string>
+    <string name="settings_printerlist_import">Import settings</string>
+    <string name="settings_printerlist_resetModel">Reset model cache</string>
+
+    <string name="settings_printer_group_counterlist">Counters</string>
+
+    <string name="wizard_semi_description">Mit diesem Wizard können Sie einen Zähler einrichten, wenn Sie dessen Zählerwert bereits kennen. Den aktuellen Wert des Zählers können Sie z.B. über die Weboberfläche des Druckers herausfinden. Geben Sie hierzu z.B. Die IP Adresse des Druckers in Ihren Browser ein.</string>
+    <string name="wizard_semi_wait">Copymeter ermittelt den Zähler mit dem Wert %s. Dies kann einige Minuten dauern. Bitte warten Sie!</string>
+    <string name="wizard_semi_increment">Der Zähler konnte nicht eindeutig ermittelt werden. Es ist ein weiterer Schritt notwendig. Führen Sie nun bitte eine Aktion durch, die den zu erfassenden Zähler %s um eins erhöht (z.B. ein Farbdokument kopieren). Drücken Sie anschließend auf O.K.</string>
+    <string name="wizard_semi_counter_name">Zähler-Name. Wählen Sie einen beliebigen Namen für Ihren Zähler (z.B. "Farbe" oder "A3").</string>
+    <string name="wizard_semi_counter_value">Zählerstand. Tragen Sie hier bitte den von Ihnen ermittelten aktuellen Zählerstand ein. Falls Sie den Zählerstand nicht kennen. Können Sie dieses Feld leer lassen</string>
+
+    <string name="wizard_auto_init">CopyMeter führt einen initialen Scann durch. Bitte warten...</string>
+    <string name="wizard_auto_lookup">CopyMeter ermittelt nun den Zähler. Bitte Warten...</string>
+    <string name="wizard_auto_increment">Führen Sie nun eine Aktion durch, die den zu erfassenden Zähler %s um eins erhöht (z.B. ein Farbdokument kopieren). Drücken Sie anschließend auf OK.</string>
+
+    <string name="wizard_selection_semiautomatic">Wizard basierte Konfiguration (Für die meisten Benutzer empfohlen)</string>
+    <string name="wizard_selection_manual">Manuelle Konfiguration (Für Experten)</string>
+
+    <string name="settings_counter_heading">Zähler Konfiguration</string>
+    <string name="settings_printer_deleteprinter">Drucker löschen</string>
+    <string name="settings_counter_button_deleteCounter">Zähler löschen</string>
+    <string name="settings_counter_label_oid">Die SNMP OID des Zählers (nur bei SNMP analyse nötig)</string>
+    <string name="settings_counter_label_regex">Die REGEX des Zählers (nur bei Webseiten analyse nötig)</string>
+    <string name="settings_counter_label_name">Zähler-Name</string>
+    <string name="settings_counter_dielaog_delete">Möchten Sie den Zähler %s wirklich löschen?</string>
+
+    <string name="settings_printer_heading">Drucker Einstellungen</string>
+    <string name="settings_printer_label_number">Drucker-Nummer. Wählen Sie eine beliebige Nummer für Ihren Drucker. Die Nummer wird auf der Übersichtsseite angezeigt.</string>
+    <string name="settings_printer_label_name">Drucker-Name. Wählen Sie einen beliebigen Namen für Ihren Drucker (z.B. "Epson 4545" oder "Drucker OG 1")</string>
+    <string name="settings_printer_label_ip">Die IP Adresse des Druckers (z.B. 192.168.0.23)</string>
+    <string name="settings_printer_label_port">Der SNMP Port des Druckers. In der Regel sollte dieser Wert auf 161 gesetzt werden.</string>
+    <string name="settings_printer_label_regexuri">URI zur Druckerseite für RegEx Counter analysen.</string>
+    <string name="settings_printer_dielaog_delete">Möchten Sie den Drucker %s wirklich löschen?</string>
+    <string name="settings_printer_editcounter">Zähler einrichten</string>
+    <string name="settings_import_success">Die Konfiguration wurde erfolgreich eingelesen und kann nach einem Neustart der APP verwendet werden.</string>
+    <string name="settings_export_success">Die Konfiguration wurde erfolgreich in die Datei %s exportiert. Sie können nun ihr Gerät per USB mit dem PC verbinden, um die Datei zu sichern.</string>
+    <string name="settings_printer_number">Printer Number</string>
+    <string name="app_name">CopyMeter2</string>
+
+    <string name="validator_is_not_empty">Bitte geben Sie einen Wert ein!</string>
+    <string name="validator_is_ip_address">Bitte geben Sie eine gültige IP Adresse ein (z.B. 192.168.0.1)!</string>
+    <string name="validator_is_numeric">Bitte geben Sie einen numerischen Wert ein!</string>
+    <string name="settings_printer_label_counters">Zähler Einstellungen</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Abbruch</string>
+    <string name="common_delete">Löschen</string>
+    <string name="common_warning">Achtung!</string>
+    <string name="common_error">Fehler!</string>
+    <string name="common_pleas_wait">Bitte Warten!</string>
+    <string name="common_reset">Reset</string>
+    <string name="common_success">Erfolgreiche Aktion!</string>
+
+    <string name="error_printer_connection">Es kann keine SNMP Verbindung zur IP Adresse %s aufgebaut werden! Bitte prüfen Sie die Verbindung.</string>
+    <string name="error_counter_match_oid">Es kann kein Zähler mit dem Zählerstand %s gefunden werden! Bitte prüfen sie den Wert und versuchen Sie es erneut.</string>
+    <string name="error_counter_match">Es kann kein passender Zähler gefunden!</string>
+    <string name="error_counter_connection">Es ist nicht möglich die OID %s vom Drucker zu lesen!</string>
+
+    <string name="info_about">The CopyMeter app is a Alexander Hafen production. All rights reserved. Contact: copymeter@havre.de</string>
+    <string name="info_license_icons">The used app icons are produced by Pyconic (http://pyconic.com) under Creative Commons License (http://creativecommons.org/licenses/by/3.0/)</string>
+    <string name="importexport_message">Sie können nun die Konfiguration mit Ihrem PC importieren und exportieren. Öffnen Sie hierzu mit Ihrem Browser die Adresse %s und folgen sie den Anweisungen."</string>
+
+
+</resources>

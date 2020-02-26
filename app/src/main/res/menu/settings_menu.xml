@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_import" android:title="@string/settings_printerlist_import"/>
+    <item android:id="@+id/menu_export" android:title="@string/settings_printerlist_export"/>
+    <item android:id="@+id/menu_resetModel" android:title="@string/settings_printerlist_resetModel"/>
+</menu>

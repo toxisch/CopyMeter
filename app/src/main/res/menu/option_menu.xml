@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/global_reset" android:title="@string/global_reset"/>
+    <item android:id="@+id/preferences" android:title="@string/preferences"/>
+    <item android:id="@+id/info_page" android:title="@string/info_page"/>
+    <item android:id="@+id/importexport" android:title="@string/importexport"/>
+</menu>
