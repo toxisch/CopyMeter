@@ -15,7 +15,6 @@
     <TextView android:id="@+id/settings_counter_listelement_text"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:textColor="#ffffff"
               android:text="No data"
               android:textSize="30dp" android:paddingLeft="20px"/>
 
