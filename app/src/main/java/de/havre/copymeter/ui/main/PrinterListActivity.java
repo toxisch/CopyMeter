@@ -189,6 +189,7 @@ public class PrinterListActivity extends RoboListActivity implements PrinterObse
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 try {
                                     server.stopService();
+                                    finish();
                                 } catch (IOException e) {
                                     e.printStackTrace();
                                 }

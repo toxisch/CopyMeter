@@ -146,6 +146,7 @@ public class ImportExportService {
                                 String jsonString = jsonStringWithPostfix.substring(0, indexOfPostfix);
                                 TallyConfig tallyConfig = new Gson().fromJson(jsonString, TallyConfig.class);
                                 configService.setTallyConfig(tallyConfig);
+                                configService.save();
                                 break;
                         }
                     }
