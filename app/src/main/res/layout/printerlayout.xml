@@ -3,10 +3,14 @@
 	android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/layout">
     <TextView android:text="@+id/TextView01" android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:id="@+id/number"
-		android:textSize="30px"></TextView>
-	<ImageView android:id="@+id/icon" android:layout_height="wrap_content"
-		android:src="@drawable/okstatus" android:layout_width="22px"
-		android:layout_marginTop="4px" android:layout_marginRight="4px"
-		android:layout_marginLeft="4px">
-	</ImageView>
+		android:textSize="60px"></TextView>
+
+	<ImageView
+		android:id="@+id/icon"
+		android:layout_width="22px"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="4px"
+		android:layout_marginTop="4px"
+		android:layout_marginRight="4px"
+		android:src="@drawable/okstatus"></ImageView>
 </LinearLayout>

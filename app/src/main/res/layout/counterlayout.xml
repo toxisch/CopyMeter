@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:padding="5px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
-    <TextView android:id="@+id/counterId"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:textSize="15px"
-              android:text="0" 
-              android:paddingBottom="0px" />
-    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <TextView android:layout_margin="-5px" android:layout_height="wrap_content" android:id="@+id/currentCount" android:layout_width="wrap_content" android:text="0" android:textSize="30px"></TextView>
-        <TextView android:layout_height="wrap_content" android:id="@+id/lastCount" android:layout_width="wrap_content" android:text="0" android:textSize="10px" android:layout_marginLeft="5px"></TextView>
+    android:padding="5px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView
+        android:id="@+id/counterId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0px"
+        android:text="0"
+        android:textSize="25px" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/currentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="-5px"
+            android:text="0"
+            android:textSize="60px"></TextView>
+
+        <TextView
+            android:id="@+id/lastCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+            android:text="0"
+            android:textSize="30px"></TextView>
+
     </LinearLayout>
+
+
 </LinearLayout>
